@@ -1,0 +1,101 @@
+cust_id,cust_name,cust_address,cust_status,from_date,to_date,insert_datetime
+0,Egestas Ligula Industries,sed@icloud.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+1,Sem Consequat Incorporated,nibh.sit.amet@protonmail.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+2,Ipsum Porta Corp.,lacus@hotmail.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+3,Nonummy Ut Inc.,sed.turpis.nec@protonmail.couk,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+4,Nec Ante Inc.,ut.quam@google.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+5,Volutpat Institute,ipsum.sodales@yahoo.net,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+6,Faucibus Orci Company,mauris.blandit@protonmail.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+7,Vel LLC,vivamus.rhoncus@outlook.net,active,0001-01-01,2020-05-08,2024-01-11 16:30:22.088555
+8,In Foundation,dictum@yahoo.ca,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+9,Ultrices Sit LLC,pede.ac@hotmail.net,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+10,Arcu Vel Industries,iaculis.nec@google.ca,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+11,Ac LLP,scelerisque.sed.sapien@aol.org,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+12,Ridiculus Mus Industries,porttitor@outlook.ca,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+13,Hendrerit Id PC,nulla.semper@hotmail.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+14,Hendrerit Donec Foundation,eget.mollis@aol.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+15,Orci Foundation,blandit@aol.net,active,0001-01-01,2022-07-01,2024-01-11 16:30:22.088555
+16,Maecenas Malesuada Corp.,scelerisque@yahoo.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+17,Massa Quisque Industries,justo.faucibus@protonmail.ca,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+18,Augue Porttitor PC,curabitur.ut@google.ca,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+19,Lectus Limited,euismod.ac.fermentum@outlook.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+20,Ut Lacus Nulla Ltd,egestas@google.com,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+21,Sociis Foundation,quam@hotmail.ca,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+22,Eros Proin Corp.,feugiat@google.ca,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+23,Ut Odio Industries,diam.eu.dolor@icloud.ca,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+24,Magna Phasellus LLC,sit.amet.orci@google.net,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+25,Urna PC,magnis@google.com,closed,0001-01-01,2020-02-28,2024-01-11 16:30:22.088555
+26,Velit Egestas Lacinia LLC,gravida.praesent@google.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+27,Diam LLP,nunc.sollicitudin@aol.couk,active,0001-01-01,2023-12-24,2024-01-11 16:30:22.088555
+28,Nunc Commodo Auctor LLC,fringilla.ornare@hotmail.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+29,Integer Eu Associates,egestas.fusce.aliquet@hotmail.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+30,Vulputate Lacus Incorporated,felis.ullamcorper@google.net,closed,0001-01-01,2022-02-24,2024-01-11 16:30:22.088555
+31,Neque Sed Industries,accumsan.sed@aol.couk,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+32,Et Libero Corporation,sodales@aol.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+33,Ut Ipsum Ac LLP,nulla.cras.eu@icloud.net,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+34,Metus Vitae LLC,purus.in@hotmail.couk,active,0001-01-01,2022-02-22,2024-01-11 16:30:22.088555
+35,In Aliquet Corp.,mauris.ipsum@google.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+36,In Magna PC,class.aptent@aol.edu,active,0001-01-01,2020-09-11,2024-01-11 16:30:22.088555
+37,Egestas Rhoncus Proin Ltd,blandit.enim.consequat@outlook.couk,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+38,Non Sapien LLP,a@outlook.net,closed,0001-01-01,2021-03-29,2024-01-11 16:30:22.088555
+39,Etiam Gravida Molestie Ltd,in.tincidunt.congue@protonmail.net,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+40,Sit Amet Lorem Limited,odio.auctor.vitae@hotmail.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+41,Sagittis Lobortis Mauris Institute,pede.malesuada.vel@protonmail.net,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+42,Bibendum Ullamcorper Corp.,sed.dictum@outlook.ca,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+43,Amet Consectetuer Corporation,quam.vel@aol.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+44,A Facilisis PC,bibendum.fermentum@google.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+45,Purus Gravida Sagittis Ltd,eu.ultrices.sit@yahoo.com,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+46,Duis Consulting,sem.pellentesque.ut@hotmail.net,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+47,Pellentesque Tellus LLP,dolor.nonummy@yahoo.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+48,Ligula Inc.,nec.orci.donec@google.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+49,Tristique PC,risus.nunc.ac@outlook.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+50,At Risus Nunc Industries,sem.nulla.interdum@icloud.edu,active,0001-01-01,2023-06-22,2024-01-11 16:30:22.088555
+51,Ornare Sagittis LLC,cras.convallis@outlook.couk,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+52,Duis Volutpat Consulting,pellentesque.habitant@outlook.net,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+53,Arcu Morbi PC,varius@yahoo.couk,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+54,Fringilla Consulting,egestas@aol.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+55,Leo Morbi Neque Incorporated,sed@outlook.org,active,0001-01-01,2021-07-23,2024-01-11 16:30:22.088555
+56,Lorem Ipsum Dolor Institute,a.auctor@aol.org,active,0001-01-01,2023-07-10,2024-01-11 16:30:22.088555
+57,Auctor Odio A Company,mauris.a@icloud.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+58,Ac Libero Nec PC,libero@outlook.couk,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+59,Porttitor Scelerisque Neque Foundation,purus.sapien.gravida@icloud.net,active,0001-01-01,2023-02-06,2024-01-11 16:30:22.088555
+60,A Company,magnis.dis.parturient@yahoo.couk,active,0001-01-01,2022-07-13,2024-01-11 16:30:22.088555
+61,A Ultricies Industries,praesent@icloud.org,active,0001-01-01,2022-04-27,2024-01-11 16:30:22.088555
+62,Nec Euismod Incorporated,tellus.suspendisse@yahoo.net,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+63,Gravida Aliquam Foundation,praesent.luctus@aol.couk,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+64,Pede Limited,phasellus.fermentum@google.couk,active,0001-01-01,2023-11-27,2024-01-11 16:30:22.088555
+65,Ipsum LLC,mus.aenean@protonmail.org,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+66,Et Ultrices LLP,euismod.enim@protonmail.com,closed,0001-01-01,2022-06-07,2024-01-11 16:30:22.088555
+67,Aliquet Magna LLP,molestie.arcu@aol.net,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+68,Aliquet Molestie Limited,amet.consectetuer@google.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+69,Massa Quisque Corporation,vitae.risus@icloud.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+70,Donec Felis Industries,pellentesque.habitant@icloud.edu,active,0001-01-01,2021-12-23,2024-01-11 16:30:22.088555
+71,Risus Nulla Institute,nulla.aliquet@yahoo.org,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+72,Est Nunc Incorporated,sociosqu.ad@outlook.couk,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+73,Donec Nibh Quisque Ltd,ante.iaculis.nec@protonmail.couk,closed,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+74,Feugiat Non Incorporated,erat.eget@outlook.com,active,0001-01-01,2021-09-21,2024-01-11 16:30:22.088555
+75,Lobortis Risus In Corp.,risus.at@aol.ca,active,0001-01-01,2022-11-04,2024-01-11 16:30:22.088555
+76,Nibh Dolor Industries,nullam.enim.sed@google.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+77,Et Netus Et PC,sapien.aenean@outlook.org,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+78,Congue Elit PC,gravida.aliquam@aol.edu,closed,0001-01-01,2022-01-07,2024-01-11 16:30:22.088555
+79,Aliquet Odio Corp.,et@hotmail.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.088555
+60,Phasellus LLC,leo.elementum.sem@protonmail.net,active,2022-07-13,9999-01-01,2024-01-11 16:30:22.091073
+74,Quam Quis Industries,erat.neque@yahoo.couk,closed,2021-09-21,9999-01-01,2024-01-11 16:30:22.091073
+78,Venenatis Foundation,aliquam.nec.enim@outlook.couk,active,2022-01-07,9999-01-01,2024-01-11 16:30:22.091073
+66,Egestas Nunc Consulting,urna.nec@google.ca,active,2022-06-07,9999-01-01,2024-01-11 16:30:22.091073
+25,Nunc Pulvinar Limited,a.magna@protonmail.couk,closed,2020-02-28,9999-01-01,2024-01-11 16:30:22.091073
+61,Enim Nec Associates,vestibulum@yahoo.ca,active,2022-04-27,9999-01-01,2024-01-11 16:30:22.091073
+70,Aliquam Enim Incorporated,natoque.penatibus@hotmail.couk,active,2021-12-23,9999-01-01,2024-01-11 16:30:22.091073
+59,Fusce Foundation,adipiscing.fringilla@outlook.com,active,2023-02-06,9999-01-01,2024-01-11 16:30:22.091073
+34,Mi Felis Corporation,lectus.pede@aol.ca,active,2022-02-22,9999-01-01,2024-01-11 16:30:22.091073
+75,Consectetuer Rhoncus Corp.,eget@hotmail.com,closed,2022-11-04,9999-01-01,2024-01-11 16:30:22.091073
+30,Sem Consulting,molestie.tellus.aenean@yahoo.couk,active,2022-02-24,9999-01-01,2024-01-11 16:30:22.091073
+36,Tempor Lorem Eget Limited,aliquam@icloud.ca,active,2020-09-11,9999-01-01,2024-01-11 16:30:22.091073
+64,Et Foundation,montes.nascetur.ridiculus@outlook.net,active,2023-11-27,9999-01-01,2024-01-11 16:30:22.091073
+56,Enim LLP,vestibulum.mauris@outlook.org,closed,2023-07-10,9999-01-01,2024-01-11 16:30:22.091073
+38,Curabitur Foundation,cum.sociis.natoque@outlook.couk,active,2021-03-29,9999-01-01,2024-01-11 16:30:22.091073
+7,Feugiat Lorem Ipsum Associates,ligula.nullam.feugiat@aol.couk,active,2020-05-08,9999-01-01,2024-01-11 16:30:22.091073
+27,Felis Orci LLP,neque.tellus@yahoo.org,closed,2023-12-24,9999-01-01,2024-01-11 16:30:22.091073
+50,Ridiculus Mus Proin LLP,tempor.est@outlook.ca,active,2023-06-22,9999-01-01,2024-01-11 16:30:22.091073
+55,Auctor Ullamcorper Nisl Foundation,duis.at@yahoo.ca,closed,2021-07-23,9999-01-01,2024-01-11 16:30:22.091073
+15,Magnis Dis Parturient Limited,in.ornare@hotmail.edu,active,2022-07-01,9999-01-01,2024-01-11 16:30:22.091073
