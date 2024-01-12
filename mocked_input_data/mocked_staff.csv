@@ -1,11 +1,13 @@
-staff_id,staff_name,staff_phone,staff_email,staff_status,from_date,to_date,insert_datetime
-0,Danielle Osborne,0674 668 828,mi.lacinia.mattis@aol.couk,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.363685
-1,Walker Olson,0433 643 744,donec.egestas@aol.com,active,0001-01-01,2021-11-07,2024-01-11 16:30:22.363685
-2,Kennedy Alvarez,0735 715 662,nec.cursus.a@hotmail.net,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.363685
-3,Uriah Payne,0499 534 623,ante.dictum.mi@google.couk,active,0001-01-01,2021-08-24,2024-01-11 16:30:22.363685
-4,Moses Mckee,0385 785 248,bibendum.ullamcorper.duis@yahoo.org,no longer with business,0001-01-01,9999-01-01,2024-01-11 16:30:22.363685
-5,Walter Gallegos,0921 865 551,odio.phasellus@outlook.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.363685
-6,Rosalyn Bishop,0214 853 787,eu@aol.edu,active,0001-01-01,9999-01-01,2024-01-11 16:30:22.363685
-7,Phillip Rowe,0127 285 424,pede.malesuada.vel@google.ca,no longer with business,0001-01-01,9999-01-01,2024-01-11 16:30:22.363685
-3,Marny Blackwell,0251 659 335,lectus@protonmail.net,active,2021-08-24,9999-01-01,2024-01-11 16:30:22.363685
-1,Leroy Gilbert,0543 875 684,lectus.cum@outlook.edu,active,2021-11-07,9999-01-01,2024-01-11 16:30:22.363685
+staff_id,staff_name,staff_phone,staff_email,staff_status,version,from_date,to_date,insert_datetime
+0,Danielle Osborne,0674 668 828,mi.lacinia.mattis@aol.couk,active,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+1,Walker Olson,0433 643 744,donec.egestas@aol.com,active,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+2,Kennedy Alvarez,0735 715 662,nec.cursus.a@hotmail.net,no longer with business,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+3,Uriah Payne,0499 534 623,ante.dictum.mi@google.couk,active,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+4,Moses Mckee,0385 785 248,bibendum.ullamcorper.duis@yahoo.org,active,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+5,Walter Gallegos,0921 865 551,odio.phasellus@outlook.edu,no longer with business,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+6,Rosalyn Bishop,0214 853 787,eu@aol.edu,active,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+7,Phillip Rowe,0127 285 424,pede.malesuada.vel@google.ca,active,1,2000-01-01,2023-10-27,2000-01-01 00:00:00
+8,Marny Blackwell,0251 659 335,lectus@protonmail.net,active,1,2000-01-01,9999-01-01,2000-01-01 00:00:00
+9,Leroy Gilbert,0543 875 684,lectus.cum@outlook.edu,active,1,2000-01-01,2020-09-20,2000-01-01 00:00:00
+7,Phillip Rowe (V2),0127 285 424,pede.malesuada.vel@google.ca,active,2,2023-10-27,9999-01-01,2023-10-26 00:00:00
+9,Leroy Gilbert (V2),0543 875 684,lectus.cum@outlook.edu,active,2,2020-09-20,9999-01-01,2020-09-19 00:00:00

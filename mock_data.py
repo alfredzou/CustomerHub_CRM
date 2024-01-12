@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import datetime
-import math
+import re
 
 """
 Take generated input data (customer, contact and staff) from raw_input_data folder. Data generated from https://generatedata.com/
@@ -15,38 +15,59 @@ Create and load into Sqlite3 database
 
 def add_date_columns(df):
     # Helper columns to track update time and effective date (from_date and to_date)
-    min_date, max_date = datetime.date(1, 1, 1), datetime.date(9999, 1, 1)
-    current_timestamp = datetime.datetime.now()
+    min_date, max_date = datetime.date(2000, 1, 1), datetime.date(9999, 1, 1)
+    current_timestamp = datetime.datetime(2000, 1, 1)
 
+    df["version"] = 1
     df["from_date"] = min_date
     df["to_date"] = max_date
     df["insert_datetime"] = current_timestamp
 
-def mock_changes(df, col_prefix):
-    # Mocks last 20% of the rows in dimension tables to simulate changing details 
-    rows = df.shape[0]
-    initial_pool = list(range(math.ceil(rows*0.8)))
-    change_pool = list(range(initial_pool[-1]+1,rows))
+def mock_version(df,col_prefix,version):
+    # For each row 40% chance to inserts an updated row (or version)
+    probability_threshold = 0.4
+
+    for index, row in df[df['version']==version].iterrows():
+        if np.random.random() < probability_threshold:
+         
+            # Determine when changes are effective and when update timestamp is required
+            start_date = row['from_date']
+            end_date = datetime.date(2024, 1, 1)
+            max_delta = (end_date-start_date).days
+            
+            updated_effective_date = start_date + datetime.timedelta(np.random.randint(max_delta))
+            current_timestamp = pd.to_datetime(updated_effective_date - datetime.timedelta(1))
+            
+            # Update new row
+            updated_row = row.copy()
+            updated_version = version + 1
+
+            updated_row['version'] = updated_version
+            updated_row['insert_datetime'] = current_timestamp
+            updated_row['from_date'] = updated_effective_date
+
+            if version == 1:
+                updated_row[f'{col_prefix}_name'] = f'{updated_row[f'{col_prefix}_name']} (V{updated_version})'
+            else:
+                pattern = r"\d+(?=\)$)"
+                updated_row[f'{col_prefix}_name'] = re.sub(pattern,str(updated_version),updated_row[f'{col_prefix}_name'])
+
+            df = pd.concat ([df, updated_row.to_frame().T], ignore_index=True)
+
+            # Amend old row    
+            df.loc[index,'to_date'] = updated_effective_date
+    return df
     
-    current_timestamp = datetime.datetime.now()
-    start_date = datetime.date(2020, 1, 1)
-    end_date = datetime.date(2024, 1, 1)
-    max_delta = (end_date-start_date).days
+def mock_df(df, col_prefix):
+    # Iterate through all the rows and 40% chance to insert an updated row
+    # Then iterate through all these new rows and repeat, until no more updates are inserted
 
-    for row in change_pool:
-        # Pick random initial id to simulate changing dimensions
-        updated_id = np.random.choice(initial_pool)
-        initial_pool.remove(updated_id)
-
-        # Find initial id row and update 'to_date'
-        new_effective_date = start_date + datetime.timedelta(np.random.randint(max_delta))
-        df.loc[updated_id,'to_date'] = new_effective_date
-
-        # Find changed id row and update
-        df.loc[row,'insert_datetime'] = current_timestamp
-        df.loc[row,'from_date'] = new_effective_date
-        df.loc[row,f'{col_prefix}_id'] = updated_id
-
+    version_count = 1
+    while df['version'].max() == version_count:
+        df = mock_version(df,col_prefix,df['version'].max())
+        version_count += 1
+    return df
+    
 def mock_dimension(csv_file, col_prefix, status, columns):
     # Transforms the generated data into the required format
     df = pd.read_csv(f"raw_input_data/{csv_file}.csv")
@@ -56,14 +77,13 @@ def mock_dimension(csv_file, col_prefix, status, columns):
         lambda x: np.random.choice(status, p=(0.8, 0.2)), axis=1
     )
     add_date_columns(df)
-    mock_changes(df,col_prefix)
+    df = mock_df(df,col_prefix)
     df.to_csv(f'mocked_input_data/mocked_{csv_file}.csv',index=False)
     return df  
 
 if __name__ == '__main__':
-    mock_dimension('customer','cust',["active","closed"],["id","name","address"])
-    mock_dimension('contact','cont',["active","no longer with business"],["id","name","phone","email"])
-    mock_dimension('staff','staff',["active","no longer with business"],["id","name","phone","email"])
-    
+    cust_df = mock_dimension('customer','cust',["active","closed"],["id","name","address"])
+    cont_df = mock_dimension('contact','cont',["active","no longer with business"],["id","name","phone","email"])
+    staff_df = mock_dimension('staff','staff',["active","no longer with business"],["id","name","phone","email"])
 
     
